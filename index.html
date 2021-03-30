@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+   <script src="https://kit.fontawesome.com/5735c2a62e.js" crossorigin="anonymous"></script>
+	<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<link rel="shortcut icon" href="images/LOGOS_WZRD-18.png">
+	<title></title>
+</head>
+<body>
+	
+
+
+<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+  <a class="navbar-brand" href="#"><img src="images/LOGOS_WZRD-18.png" width="80px"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="prductos.html">PRODUCTS<span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="">HOW TO GET </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#WHAT WE DO">SHOP</a>
+      </li>
+      <li class="nav-item">
+        <a href="https://www.instagram.com/wdzrd_/" class="navbar-brand"> <i class="fab fa-instagram" style="font-size: 3rem;"></i></a> 
+      </li>
+      
+    </ul>
+    
+  </div>
+</nav> -->
+
+
+<!--     <a href="https://www.instagram.com/wdzrd_/" class="navbar-brand"> <i class="fab fa-instagram" style="font-size: 3rem;"></i></a> -->
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="images/LOGOS_WZRD-18.png" width="80px"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">HOW TO GET</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">SHOP</a>
+        </li>
+        <li class="nav-item">
+          <a  href="https://www.instagram.com/wdzrd_/" class="navbar-brand"> <i class="fab fa-instagram" style="font-size: 3rem;"></i></a> 
+        </li>
+      </ul>
+        <form class="d-flex">
+       
+        <button class="btn btn-outline-success" type="submit"><a href="carrito.html"><i class="fa fa-shopping-cart"></i></a></button>
+      </form>
+    </div>
+
+  </div>
+</nav>
+
+
+		<video class="video-fluid z-depth-1" autoplay loop  muted>
+  <source src="images/Slide.mp4" type="video/mp4" />
+</video>
+
+<div id="GET INOVOLVED" class="topToget">
+   <div class="algo  " id="formaParte">
+    	<div class="container">
+      		<div class="row">
+        		<div class="col-lg-6 col-12 col-md-6 foto2 Responsive image">
+          		<!-- 	<img src="images/foto1.png" width="100%" class="img-fluid"> -->
+
+        		</div>
+        		<div class="col-lg-6 col-12 col-md-6 foto ">
+          			<div class="justify-content-center formCem">
+         				<div class="tamañotexto">
+         					<h2>HOW TO GET WDZRD?</h2>
+         						<ol class="pasos">
+         							<li class="pasosTex">Meet us and our products on @wdzrd_(Instagram)</li>
+         							<li class="pasosTex">There you can ask for the WA number or,</li>
+         							<li class="pasosTex">You can order directly from our digital menu</li>
+         							<li class="pasosTex">Proceed with your payment via Paypal or, </li>
+         							<li class="pasosTex">{If you prefer, ask for a cash method}</li>
+         							<li class="pasosTex">Wait at home (or somewhere else) from 2 to 4 hours</li>
+         							<li class="pasosTex">You can schedule your order for another day</li>
+         						</ol>
+         				</div>
+          			</div>
+        		</div>
+      		</div>
+    	</div>
+  	</div>
+</div>
+
+
+
+<section class="contenedor">
+	<div class="container">
+    <div class="row">
+        <!-- Elementos generados a partir del JSON -->
+        <main id="items" class="col-sm-12 row">
+
+        </main>
+        <!-- Carrito -->
+
+    </div>
+</div>
+</section>
+       <aside class="col-sm-4">
+            <h2>Carrito</h2>
+            <!-- Elementos del carrito -->
+            <ul id="carrito" class="list-group"></ul>
+            <hr>
+            <!-- Precio total -->
+            <p class="text-right">Total: $<span id="total"></span></p>
+            <button id="boton-vaciar" class="btn btn-danger btn-morado">Vaciar</button><br><br>
+            <button id="send-whatsapp" class="btn btn-danger btn-morado" onclick="enviarWhats()"><i class="fab fa-whatsapp"></i>  Enviar por Whatsapp!</button>
+        </aside>
+<section class="galeria">
+  <div class="-fx-image-gal">
+  <div class="-fx-gal-item">
+    <div class="-fx-gal-image-thumb" tabindex="1">
+      <a href="https://codepen.io/aledebarba" target="_blank">
+        <img src="images/testimonios/uno.png" />
+      </a>
+    </div>
+  </div><!-- /-fx-gal-item -->
+
+  <div class="-fx-gal-item">
+    <div class="-fx-gal-image-thumb" tabindex="1">
+      <a href="https://codepen.io/aledebarba" target="_blank">
+        <img src="images/testimonios/dos.png" />
+      </a>
+    </div>
+  </div><!-- /-fx-gal-item -->
+
+  <div class="-fx-gal-item">
+    <div class="-fx-gal-image-thumb" tabindex="1">
+      <a href="https://codepen.io/aledebarba" target="_blank">
+        <img src="images/testimonios/tres.png" />
+      </a>
+    </div>
+  </div><!-- /-fx-gal-item -->
+
+  <div class="-fx-gal-item">
+    <div class="-fx-gal-image-thumb" tabindex="1">
+      <a href="https://codepen.io/aledebarba" target="_blank">
+        <img src="images/testimonios/cuatro.png" />
+      </a>
+    </div>
+  </div><!-- /-fx-gal-item -->
+
+  <div class="-fx-gal-item">
+    <div class="-fx-gal-image-thumb" tabindex="1">
+      <a href="https://codepen.io/aledebarba" target="_blank">
+        <img src="images/testimonios/cinco.png" />
+      </a>
+    </div>
+  </div><!-- /-fx-gal-item -->
+
+  <div class="-fx-gal-item">
+    <div class="-fx-gal-image-thumb" tabindex="1">
+      <a href="https://codepen.io/aledebarba" target="_blank">
+        <img src="images/testimonios/seis.png" />
+      </a>
+    </div>
+  </div><!-- /-fx-gal-item -->
+
+
+  <div class="-fx-gal-item">
+    <div class="-fx-gal-image-thumb" tabindex="1">
+      <a href="https://codepen.io/aledebarba" target="_blank">
+        <img src="images/testimonios/siete.png" />
+      </a>
+    </div>
+  </div><!-- /-fx-gal-item -->
+
+  <div class="-fx-gal-item">
+    <div class="-fx-gal-image-thumb" tabindex="1">
+      <a href="https://codepen.io/aledebarba" target="_blank">
+        <img src="images/testimonios/ocho.png" />
+      </a>
+    </div>
+  </div><!-- /-fx-gal-item -->
+
+  <div class="-fx-gal-item">
+    <div class="-fx-gal-image-thumb" tabindex="1">
+      <a href="https://codepen.io/aledebarba" target="_blank">
+        <img src="images/testimonios/nueve.png" />
+      </a>
+    </div>
+  </div><!-- /-fx-gal-item -->
+</div><!-- /gallery -->
+</section>
+ 
+<br>
+<br>
+
+
+ <footer>
+    <div class="container">
+      <div class="row">
+    
+      </div>
+      <br>
+    
+      <div class="text-center texto textcenter">
+
+        <img src="images/music.png">
+        <h2 class="tituloblanco">Let’s listen cool tunes</h2>
+        <div class="Spotify__embed">
+  <iframe src="https://open.spotify.com/embed/playlist/2rQm6y2xAbjaXsFNpDL7jx" width="300" height="80"></iframe>
+</div>
+
+<!--        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-youtube-square"></i>
+        <i class="fab fa-instagram-square"></i> -->
+<!-- 
+         
+            <ul class="social-icons list-group list-group-horizontal justify-content-center">
+              <a class="facebook" href="https://www.facebook.com/SoyMiCochinito"><i class="fa fa-facebook  "></i></a>
+              <a class="twitter" href="https://www.instagram.com/mi_cochinito/"><i class="fab fa-instagram-square "></i></a>
+              <a class="dribbble" href="https://www.micochinito.com"><i class="fa fa-dribbble "></i></a>
+              <a class="linkedin" href="https://mx.linkedin.com/company/gens-creando-posibilidades-sc"><i class="fa fa-linkedin "></i></a>
+            </ul>
+       -->
+        <h5 class="tituloblanco">Un playlist para compartir y disfrutar nuestros productos</h5>
+
+     <!--  <a href="Privacy.html">Privacy Policy</a> -->
+     <img src="images/LOGOS_WZRD-09.png" width="30%" height="auto">
+      </div>
+    </div>
+
+  </footer>
+
+    
+
+
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+<script src="./js/01.js"></script>
+</html>
