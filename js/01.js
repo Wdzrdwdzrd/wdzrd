@@ -96,6 +96,11 @@ function renderItems() {
 		miNodoBoton.setAttribute('marcador', info['id']);
 		miNodoBoton.addEventListener('click', anyadirCarrito);
 
+		let miNodoBotonCarrito = document.createElement('button');
+		miNodoBotonCarrito.classList.add('btn', 'product-links', 'btn-primary' , 'btn-carrito');
+		miNodoBotonCarrito.textContent = 'Ver carrito';
+	
+
 
 		// Insertamos
 		miNodoCardBody.appendChild(miNodoImagen);
@@ -105,6 +110,8 @@ function renderItems() {
 		miNodoCardBody.appendChild(miNodomg);
 		miNodoCardBody.appendChild(miNodoPrecio);
 		miNodoCardBody.appendChild(miNodoBoton);
+		miNodoCardBody.appendChild(miNodoBotonCarrito);
+
 
 		miNodo.appendChild(miNodoCardBody);
 		$items.appendChild(miNodo);
@@ -142,7 +149,7 @@ function renderizarCarrito() {
 		miNodo.textContent = `${numeroUnidadesItem} ${miItem[0]['nombre']} - ${miItem[0]['precio']}`;
 		// Boton de borrar
 		let miBoton = document.createElement('button');
-		miBoton.classList.add('btn', 'btn-danger', 'mx-5' ,'btn-morado');
+		miBoton.classList.add('btn', 'btn-danger', 'mx-5' ,'btn-eliminar');
 		miBoton.textContent = 'X';
 		miBoton.style.marginLeft = '1rem';
 		miBoton.setAttribute('item', item);

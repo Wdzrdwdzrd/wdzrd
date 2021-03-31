@@ -78,12 +78,30 @@ h5, h2{
 .btn-morado{
   background-color: #28e99c !important;
   border-color: #28e99c !important;
-  width: 95%;
+  width: 30%;
   align-items: center;
     justify-content: center;
 
 }
 
+.btn-eliminar{
+background-color: #45035e !important;
+    border-color: #45035e !important;
+    width: 7%;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.btn-carrito{
+  background-color: #f8f9fa !important;
+    border-color: #f87fba !important;
+    width: 95%;
+    margin-top: 3%;
+    align-items: center;
+    justify-content: center;
+    color: #f87fba !important;
+}
 
 .btn-verde{
     background-color: #28e99c !important;
@@ -313,7 +331,10 @@ h5, h2{
     color: #777;
   font-size: 14px;
 }
-
+.compras{
+    text-align: center;
+    padding: 2% 20% 2% 20%;
+}
 /*_____________________*/
 footer{
   background-color:#45035e; 
