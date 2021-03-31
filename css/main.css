@@ -75,10 +75,16 @@ h5, h2{
   /*font-family: 'Source Sans Pro', sans-serif;*/
   font-family: 'Josefin Sans', sans-serif;
 }
+
+.TitulosSeciones{
+  font-family: 'Quicksand', sans-serif;
+    color: #450360;
+    font-size: 40px;
+}
 .btn-morado{
   background-color: #28e99c !important;
   border-color: #28e99c !important;
-  width: 30%;
+
   align-items: center;
     justify-content: center;
 
@@ -87,9 +93,9 @@ h5, h2{
 .btn-eliminar{
 background-color: #45035e !important;
     border-color: #45035e !important;
-    width: 7%;
+/*    width: 10%;
   align-items: center;
-  justify-content: center;
+  justify-content: center;*/
 
 }
 
@@ -123,9 +129,9 @@ background-color: #45035e !important;
 }
 
 .foto2{
- background-image: url("../images/LOGOS_WZRD-21.png");
-  width: 30% !important;
-  height: auto;
+ background-image: url("../images/dwd.png");
+/*  width: 30% !important;
+  height: auto;*/
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -334,6 +340,17 @@ background-color: #45035e !important;
 .compras{
     text-align: center;
     padding: 2% 20% 2% 20%;
+    font-size: 25px;
+}
+
+
+
+.totalDecompra{
+    font-size: 20px;
+}
+
+.totalCompra{
+    font-size: 30px;
 }
 /*_____________________*/
 footer{

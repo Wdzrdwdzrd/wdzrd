@@ -146,7 +146,7 @@ function renderizarCarrito() {
 		// Creamos el nodo del item del carrito
 		let miNodo = document.createElement('li');
 		miNodo.classList.add('list-group-item', 'text-right', 'mx-2');
-		miNodo.textContent = `${numeroUnidadesItem} ${miItem[0]['nombre']} - ${miItem[0]['precio']}`;
+		miNodo.textContent = ` Numero de unidades = ${numeroUnidadesItem} ${miItem[0]['nombre']} / Monto  $ ${miItem[0]['precio']}`;
 		// Boton de borrar
 		let miBoton = document.createElement('button');
 		miBoton.classList.add('btn', 'btn-danger', 'mx-5' ,'btn-eliminar');

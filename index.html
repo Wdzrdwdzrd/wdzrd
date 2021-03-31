@@ -77,9 +77,11 @@
 </nav>
 
 
-		<video class="video-fluid z-depth-1" autoplay loop  muted>
+		<video poster="./images/rosa.png" class="video-fluid z-depth-1" autoplay loop  muted>
   <source src="images/Slide.mp4" type="video/mp4" />
 </video>
+
+
 
 <div id="GET INOVOLVED" class="topToget">
    <div class="algo  " id="formaParte">
@@ -114,6 +116,9 @@
 
 <section class="contenedor">
 	<div class="container">
+  <br>
+      <h2 class="TitulosSeciones">SHOP</h2>
+      <br>
     <div class="row">
         <!-- Elementos generados a partir del JSON -->
         <main id="items" class="col-sm-12 row">
@@ -128,12 +133,12 @@
   <div class="container">
     <div class="row">
            <aside class="col-sm-12">
-            <h2>Carrito</h2>
+            <h2 class="TitulosSeciones">Carrito</h2>
             <!-- Elementos del carrito -->
             <ul id="carrito" class="list-group compras"></ul>
             <hr>
             <!-- Precio total -->
-            <p class="text-right">Total: $ <span id="total"></span></p>
+            <p class="text-right totalCompra">Total: $ <span id="total" class="totalCompra"></span></p>
             <button id="boton-vaciar" class="btn btn-danger btn-morado">Vaciar</button><br><br>
             <button id="send-whatsapp" class="btn btn-danger btn-morado" onclick="enviarWhats()"><i class="fab fa-whatsapp"></i>  Enviar por Whatsapp!</button>
         </aside>
