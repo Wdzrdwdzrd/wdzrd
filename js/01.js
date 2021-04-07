@@ -96,11 +96,15 @@ function renderItems() {
 		miNodoBoton.setAttribute('marcador', info['id']);
 		miNodoBoton.addEventListener('click', anyadirCarrito);
 
-		let miNodoBotonCarrito = document.createElement('button');
+		let miNodoBotonCarrito = document.createElement('a');
 		miNodoBotonCarrito.classList.add('btn', 'product-links', 'btn-primary' , 'btn-carrito');
 		miNodoBotonCarrito.textContent = 'Ver carrito';
-	
-
+		
+		// let input = document.getElementById('carro')
+		
+		miNodoBotonCarrito.addEventListener('click', () => {
+			location.href ='#carro';
+		})
 
 		// Insertamos
 		miNodoCardBody.appendChild(miNodoImagen);
