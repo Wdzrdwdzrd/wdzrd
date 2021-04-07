@@ -611,10 +611,10 @@ font-size: 20px;
   scroll-snap-type: unset;
 }
 
-li {
+/*li {
 
   scroll-snap-align: center;
   display: inline-block;
   border-radius: 3px;
   font-size: 0;
-}
+}*/
