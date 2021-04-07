@@ -12,6 +12,9 @@ video {
     object-fit: cover;
     object-position: center;
 }
+section{
+  margin-bottom: 10%
+}
 div#fashion {
   min-height: 100vh;
   display: flex;
@@ -84,9 +87,9 @@ h5, h2{
 .btn-morado{
   background-color: #28e99c !important;
   border-color: #28e99c !important;
-
   align-items: center;
     justify-content: center;
+font-size: 18px !important;
 
 }
 
@@ -107,6 +110,7 @@ background-color: #45035e !important;
     align-items: center;
     justify-content: center;
     color: #f87fba !important;
+    font-size: 18px !important;
 }
 
 .btn-verde{
@@ -115,6 +119,7 @@ background-color: #45035e !important;
     width: 95%;
     align-items: center;
     justify-content: center;
+    font-weight: bold  !important;
 }
 .contenedor{
   margin-top: 5%;
@@ -129,7 +134,7 @@ background-color: #45035e !important;
 }
 
 .foto2{
- background-image: url("../images/dwd.png");
+ /*background-image: url("../images/dwd.png");*/
 /*  width: 30% !important;
   height: auto;*/
   background-repeat: no-repeat;
@@ -533,10 +538,10 @@ font-size: 30px;*/
 }
 
 .product-details p {
-    font-size: 15px;
+    font-size: 18px;
     line-height: 22px;
     margin-bottom: 18px;
-    color: #999;
+    color: #333;
 }
 
 .product-bottom-details {
@@ -587,12 +592,6 @@ font-size: 20px;
 
 
 /*(///galery)*/
-@media (min-width: 768px) {
-  .gallery {
-    grid-template-columns: repeat(5,50vw);
-  }
- 
-}
 
 
 .gallery {
