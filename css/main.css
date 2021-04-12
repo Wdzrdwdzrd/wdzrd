@@ -344,8 +344,8 @@ background-color: #45035e !important;
 }
 .compras{
     text-align: center;
-    padding: 2% 20% 2% 20%;
-    font-size: 25px;
+    
+    font-size: 16px;
 }
 
 
@@ -610,10 +610,9 @@ font-size: 20px;
   scroll-snap-type: unset;
 }
 
-/*li {
-
-  scroll-snap-align: center;
-  display: inline-block;
-  border-radius: 3px;
-  font-size: 0;
-}*/
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .gallery {
+   grid-template-columns: repeat(15,66vw);
+  }
+}
