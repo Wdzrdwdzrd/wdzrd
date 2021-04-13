@@ -459,7 +459,7 @@ font-size: 30px;*/
 /*
 //////////////card////////////////*/
  .textoDescripcion{
-  height: 160px;
+  height: 190px;
   padding: 2%;
  }
 
@@ -538,7 +538,7 @@ font-size: 30px;*/
 }
 
 .product-details p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 22px;
     margin-bottom: 18px;
     color: #333;
@@ -614,5 +614,8 @@ font-size: 20px;
   /* For mobile phones: */
   .gallery {
    grid-template-columns: repeat(15,90vw);
+  }
+  .video{
+      height: 60vh
   }
 }
