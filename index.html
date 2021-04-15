@@ -16,40 +16,34 @@
 </head>
 <body>
 	
-
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="index.html"><img src="images/LOGOS_WZRD-18.png" width="80px"></a>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#GET">HOW TO GET</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#SHOP">SHOP</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="prductos.html">PRODUCTS</a>
+        </li>
+       
+      </ul>
+      <form class="d-flex">
+       <a href="#carro"><i class="fa fa-shopping-cart  icocno"></i></a>
+        <a  href="https://www.instagram.com/wdzrd_/" class="navbar-brand"> <i class="fab fa-instagram" style="font-size:2rem;"></i></a> 
+      </form>
+    </div>
+  </div>
+</nav>
 
 <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-
-  <a class="navbar-brand" href="#"><img src="images/LOGOS_WZRD-18.png" width="80px"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      <li class="nav-item active">
-        <a class="nav-link" href="prductos.html">PRODUCTS<span class="sr-only"></span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="">HOW TO GET </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#WHAT WE DO">SHOP</a>
-      </li>
-      <li class="nav-item">
-        <a href="https://www.instagram.com/wdzrd_/" class="navbar-brand"> <i class="fab fa-instagram" style="font-size: 3rem;"></i></a> 
-      </li>
-      
-    </ul>
-    
-  </div>
-</nav> -->
-
-
-<!--     <a href="https://www.instagram.com/wdzrd_/" class="navbar-brand"> <i class="fab fa-instagram" style="font-size: 3rem;"></i></a> -->
-
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#"><img src="images/LOGOS_WZRD-18.png" width="80px"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,20 +55,20 @@
           <a class="nav-link active" aria-current="page" href="#">HOW TO GET</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">SHOP</a>
+          <a class="nav-link" href="#carro">SHOP</a>
         </li>
         <li class="nav-item">
           <a  href="https://www.instagram.com/wdzrd_/" class="navbar-brand"> <i class="fab fa-instagram" style="font-size: 3rem;"></i></a> 
         </li>
       </ul>
-        <form class="d-flex">
-       
-        <button class="btn btn-outline-success" type="submit"><a href="carrito.html"><i class="fa fa-shopping-cart"></i></a></button>
-      </form>
+      
+         <form class="form-inline my-2 my-lg-0">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><a href="carrito.html"><i class="fa fa-shopping-cart"></i></a></button>
+    </form>
     </div>
 
   </div>
-</nav>
+</nav> -->
 
 
 		<video poster="./images/rosa.png" class="video-fluid z-depth-1" autoplay loop  muted>
@@ -84,12 +78,12 @@
 
 
 <section>
-  <div id="GET INOVOLVED" class="topToget">
+  <div id="GET" class="topToget">
    <div class="algo  " id="formaParte">
       <div class="container">
           <div class="row">
             <div class="col-lg-6 col-12 col-md-6 foto2 Responsive image d-none d-sm-none d-md-block">
-               <img src="images/dwd.png" width="100%" class="img-fluid">
+               <img src="images/LOGOS_WZRD-21.png" width="100%" class="img-fluid">
 
             </div>
             <div class="col-lg-6 col-12 col-md-6 foto ">
@@ -116,7 +110,7 @@
 </section>
 
 
-<section class="contenedor">
+<section class="contenedor" id="SHOP">
 	<div class="container">
   <br>
       <h2 class="TitulosSeciones">SHOP</h2>
@@ -146,7 +140,7 @@
             <!-- Precio total -->
             <p class="text-right totalCompra">Total: $ <span id="total" class="totalCompra"></span></p>
             <button id="boton-vaciar" class="btn btn-danger btn-morado">Vaciar</button><br><br>
-            <button id="send-whatsapp" class="btn btn-danger btn-morado" onclick="enviarWhats()"><i class="fab fa-whatsapp"></i>  Enviar por Whatsapp!</button>
+            <button id="send-whatsapp" class="btn btn-danger btn-whats" onclick="enviarWhats()"><i class="fab fa-whatsapp"></i>  Enviar por Whatsapp!</button>
         </aside>
      </div>
   </div>

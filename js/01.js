@@ -3,7 +3,7 @@ let baseDeDatos = [
 		id: 1,
 		nombre: 'GUMMIES',
 		texto: 'The gummies are cooked with our tincture, every piece is 5 g of strawberry/mango flavor and dusted with bittersweet chili powder. If you are a new consumer you could eat just half gummy because each one has a nice dose. ',
-		precio: 450,
+		precio: 480,
 		gr:'Bag w/9 pieces',
 		imagen: 'images/Gummies1.jpg',
 		mg: '250 mgTHC'
@@ -12,28 +12,28 @@ let baseDeDatos = [
 		id: 2,
 		nombre: 'BITES (Chocolate)',
 		texto: 'Bites are crispy cornflakes cooked with our infused and clarified butter, every piece is 10 g and we have different flavors, when confirming your order let us know which one you prefer. If you are a new consumer you could start with just one piece. ',
-		precio: 420,
+		precio: 430,
 		gr:'Bag w/8 pieces',
 		imagen: 'images/Bites.jpg',
-		mg: '150 mgTHC'
+		mg: '180 mgTHC'
 	},
 	{
 		id: 3,
 		nombre: 'TINCTURE',
 		texto: 'Our tincture is a full spectrum infusion obtained from a macerate process with a previously decarboxylated plant for proper cannabinoids activation.',
-		precio: 550,
+		precio: 580,
 		gr:'Dropper w/30 ml (600 drops proxy)',
 		imagen: 'images/Tintc1.jpg',
-		mg: '480 mgTHC/32 mgCBD'
+		mg: '550 mgTHC/32 mgCBD'
 	},
 	{
 		id: 4,
 		nombre: 'BITES (TuttiFrutti)',
 		texto: 'Bites are crispy cornflakes cooked with our infused and clarified butter, every piece is 10 g and we have different flavors, when confirming your order let us know which one you prefer. If you are a new consumer you could start with just one piece.',
-		precio: 420,
+		precio: 430,
 		gr:'Bag w/8 pieces',
 		imagen: 'images/Bites.jpg',
-		mg: '150 mgTHC'
+		mg: '180 mgTHC'
 
 	}
 
