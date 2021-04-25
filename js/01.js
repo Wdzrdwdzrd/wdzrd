@@ -97,7 +97,7 @@ function renderItems() {
 		miNodoBoton.addEventListener('click', anyadirCarrito);
 
 		let miNodoBotonCarrito = document.createElement('a');
-		miNodoBotonCarrito.classList.add('btn', 'product-links', 'btn-primary' , 'btn-carrito');
+		miNodoBotonCarrito.classList.add('btn', 'product-links', 'btn-primary' , 'btn-carrito' );
 		miNodoBotonCarrito.textContent = 'Ver carrito';
 		
 		// let input = document.getElementById('carro')
@@ -105,6 +105,9 @@ function renderItems() {
 		miNodoBotonCarrito.addEventListener('click', () => {
 			location.href ='#carro';
 		})
+
+
+
 
 		// Insertamos
 		miNodoCardBody.appendChild(miNodoImagen);
@@ -150,7 +153,7 @@ function renderizarCarrito() {
 		// Creamos el nodo del item del carrito
 		let miNodo = document.createElement('li');
 		miNodo.classList.add('list-group-item', 'text-right', 'mx-2');
-		miNodo.textContent = ` Numero de unidades = ${numeroUnidadesItem} ${miItem[0]['nombre']} / Monto  $ ${miItem[0]['precio']}`;
+		miNodo.textContent = ` Unidades = ${numeroUnidadesItem} Producto: ${miItem[0]['nombre']} / Total:  $ ${miItem[0]['precio']}`;
 		// Boton de borrar
 		let miBoton = document.createElement('button');
 		miBoton.classList.add('btn', 'btn-danger', 'mx-5' ,'btn-eliminar');
@@ -220,9 +223,9 @@ function enviarWhats(){
 	console.log(total)
   console.log(formatoItems);
 
-  var message = "Hey esta es mi orden:".concat(formatoItems.join("\n")).concat("\n").concat(total);
+  var message = "Esta es mi orden:".concat(formatoItems.join("\n")).concat(" Total a pagar: $").concat(total);
 	var formatMessage = encodeURI(message);
-	console.log(message);
+	console.log(message); 
 
 	window.open("https://api.whatsapp.com/send/?phone=525519158885&text=".concat(formatMessage));
 

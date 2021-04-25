@@ -293,7 +293,7 @@ background-color: #45035e !important;
     linear-gradient(to right bottom, 
        rgb(62 51 60 / 47%),
    rgb(69 2 96 / 78%)),
-     url('../images/productos.jpg');
+     url('../images/portada2.png');
     background-size: cover;
 
   
@@ -500,7 +500,8 @@ font-size: 30px;*/
     width: 380px;
     position: relative;
     box-shadow: 0 2px 7px #dfdfdf;
-    margin: 5%;
+        margin-right: 15%;
+    margin-bottom: 9%;
     background: #fafafa;
     padding: 1%;
 }
