@@ -5,7 +5,7 @@ let baseDeDatos = [
 		texto: 'The gummies are cooked with our tincture, every piece is 5 g of strawberry/mango flavor and dusted with bittersweet chili powder. If you are a new consumer you could eat just half gummy because each one has a nice dose. ',
 		precio: 480,
 		gr:'Bag w/9 pieces',
-		imagen: 'images/Gummies1.jpg',
+		imagen: 'images/gummies.png',
 		mg: '250 mgTHC'
 	},
 	{
@@ -14,7 +14,7 @@ let baseDeDatos = [
 		texto: 'Bites are crispy cornflakes cooked with our infused and clarified butter, every piece is 10 g and we have different flavors, when confirming your order let us know which one you prefer. If you are a new consumer you could start with just one piece. ',
 		precio: 430,
 		gr:'Bag w/8 pieces',
-		imagen: 'images/Bites.jpg',
+		imagen: 'images/bitechocolate.png',
 		mg: '180 mgTHC'
 	},
 	{
@@ -23,7 +23,7 @@ let baseDeDatos = [
 		texto: 'Our tincture is a full spectrum infusion obtained from a macerate process with a previously decarboxylated plant for proper cannabinoids activation.',
 		precio: 580,
 		gr:'Dropper w/30 ml (600 drops proxy)',
-		imagen: 'images/Tintc1.jpg',
+		imagen: 'images/Tincture.png',
 		mg: '550 mgTHC/32 mgCBD'
 	},
 	{
@@ -32,7 +32,7 @@ let baseDeDatos = [
 		texto: 'Bites are crispy cornflakes cooked with our infused and clarified butter, every piece is 10 g and we have different flavors, when confirming your order let us know which one you prefer. If you are a new consumer you could start with just one piece.',
 		precio: 430,
 		gr:'Bag w/8 pieces',
-		imagen: 'images/Bites.jpg',
+		imagen: 'images/bites.png',
 		mg: '180 mgTHC'
 
 	}
@@ -92,13 +92,13 @@ function renderItems() {
 		// Boton
 		let miNodoBoton = document.createElement('button');
 		miNodoBoton.classList.add('btn', 'product-links', 'btn-primary' , 'btn-verde');
-		miNodoBoton.textContent = 'Agregar';
+		miNodoBoton.textContent = 'Add Cart';
 		miNodoBoton.setAttribute('marcador', info['id']);
 		miNodoBoton.addEventListener('click', anyadirCarrito);
 
 		let miNodoBotonCarrito = document.createElement('a');
 		miNodoBotonCarrito.classList.add('btn', 'product-links', 'btn-primary' , 'btn-carrito' );
-		miNodoBotonCarrito.textContent = 'Ver carrito';
+		miNodoBotonCarrito.textContent = 'View Cart';
 		
 		// let input = document.getElementById('carro')
 		
