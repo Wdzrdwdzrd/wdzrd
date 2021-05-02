@@ -16,6 +16,21 @@ section{
   margin-bottom: 10%
 }
 
+
+.col-sm-6 {
+    min-height: calc(33.333vh - 20px);
+    color: white;
+    font-size: 20px;
+}
+.text {
+    background: grey;
+}
+
+.picture {
+    background: #F4B350;
+    margin-bottom: 20px;
+}
+
 .icocno{
   font-size: 30px;
       margin-top: 7PX;
