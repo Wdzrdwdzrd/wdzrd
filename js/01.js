@@ -106,6 +106,9 @@ function renderItems() {
 			location.href ='#carro';
 		})
 
+		miNodoBoton.addEventListener('click', () => {
+		swal("Good !", "You clicked the add !", "success")
+		})
 
 
 
