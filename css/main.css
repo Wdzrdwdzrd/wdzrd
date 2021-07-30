@@ -171,6 +171,10 @@ background-color: #45035e !important;
 .pasos{
   font-family: 'Josefin Sans', sans-serif;
   font-size: 18px;
+  margin-top: 10%;
+}
+.pasos2{
+  margin-top: 8%;
 }
 
 .card{
@@ -189,9 +193,7 @@ background-color: #45035e !important;
 .tamañotexto{
   padding: 10% 20% 10% 10%;
 }
-.pasos{
-  padding: 10% 0% 8% 18%;
-}
+
 
 .topToget{
   margin-top: 5%;
