@@ -15,8 +15,17 @@ video {
 section{
   margin-bottom: 10%
 }
-
-
+.rosa{
+  background-color:#f77eb9;
+  padding: 5%;
+  font-size: 22px;
+}
+.morado{
+  color:#45035e;
+}
+.blanco{
+  color: #FFF;
+}
 .col-sm-6 {
     min-height: calc(33.333vh - 20px);
     color: white;

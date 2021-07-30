@@ -1,39 +1,39 @@
 let baseDeDatos = [
 	{
 		id: 1,
-		nombre: 'GUMMIES',
-		texto: 'The gummies are cooked with our tincture, every piece is 5 g of strawberry/mango flavor and dusted with bittersweet chili powder. If you are a new consumer you could eat just half gummy because each one has a nice dose. ',
-		precio: 480,
-		gr:'Bag w/9 pieces',
+		nombre: 'GUMMIES (Fresa-Mango con chile)',
+		texto: 'Las gomitas están preparadas con nuestra tintura, cada pieza de 5g contiene una mezcla de sabor fresa-mango y están espolvoreadas con chilito agridulce. Te aseguramos que te darán una experiencia y un sabor inigualable. Si eres nuevo, te recomendamos iniciar con media pieza en tu primera prueba. ',
+		precio: 480, 
+		gr:'Bolsa con 9 piezas',
 		imagen: 'images/gummies.png',
 		mg: '250 mgTHC'
 	},
 	{
 		id: 2,
 		nombre: 'BITES (Chocolate)',
-		texto: 'Bites are crispy cornflakes cooked with our infused and clarified butter, every piece is 10 g and we have different flavors, when confirming your order let us know which one you prefer. If you are a new consumer you could start with just one piece. ',
+		texto: 'Nuestros bites de cereal están preparados con nuestra mantequilla clarificada e infusionada, se cocinan con bombón y se sirven; las piezas son de alrededor de 10g y pueden pedirse en dos sabores diferentes; chocolate y tuttifrutti, al confirmar tu orden dinos qué sabor prefieres. Si eres un nuevo consumidor te recomendamos comer solo una pieza. ',
 		precio: 430,
-		gr:'Bag w/8 pieces',
+		gr:'Bolsa de 70 g',
 		imagen: 'images/bitechocolate.png',
-		mg: '180 mgTHC'
+		mg: '150 mgTHC'
 	},
 	{
 		id: 3,
 		nombre: 'TINCTURE',
-		texto: 'Our tincture is a full spectrum infusion obtained from a macerate process with a previously decarboxylated plant for proper cannabinoids activation.',
+		texto: 'Nuestra tintura es de espectro completo, obtenida de un proceso de maceración con una descarboxilación previa para la correcta activación de canabinoides. ¿Cómo la uso? Te sugerimos agregar algunas gotas en una bebida caliente. Para nuevos usuarios sugerimos comenzar con 2 a 4 gotas, está medicamente probado que el uso de tintura reduce síntomas como la ansiedad y el insomnio.',
 		precio: 580,
-		gr:'Dropper w/30 ml (600 drops proxy)',
+		gr:'Gotero 30 ml (600 gotas aprox)',
 		imagen: 'images/Tincture.png',
-		mg: '550 mgTHC/32 mgCBD'
+		mg: '480 mgTHC/32 mgCBD'
 	},
 	{
 		id: 4,
 		nombre: 'BITES (TuttiFrutti)',
-		texto: 'Bites are crispy cornflakes cooked with our infused and clarified butter, every piece is 10 g and we have different flavors, when confirming your order let us know which one you prefer. If you are a new consumer you could start with just one piece.',
+		texto: 'Nuestros bites de cereal están preparados con nuestra mantequilla clarificada e infusionada, se cocinan con bombón y se sirven; las piezas son de alrededor de 10g y pueden pedirse en dos sabores diferentes; chocolate y tuttifrutti, al confirmar tu orden dinos qué sabor prefieres. Si eres un nuevo consumidor te recomendamos comer solo una pieza. ',
 		precio: 430,
-		gr:'Bag w/8 pieces',
+		gr:'Bolsa de 70 g',
 		imagen: 'images/bites.png',
-		mg: '180 mgTHC'
+		mg: '150 mgTHC'
 
 	}
 
@@ -92,13 +92,13 @@ function renderItems() {
 		// Boton
 		let miNodoBoton = document.createElement('button');
 		miNodoBoton.classList.add('btn', 'product-links', 'btn-primary' , 'btn-verde');
-		miNodoBoton.textContent = 'Add Cart';
+		miNodoBoton.textContent = 'Agregar a carrito';
 		miNodoBoton.setAttribute('marcador', info['id']);
 		miNodoBoton.addEventListener('click', anyadirCarrito);
 
 		let miNodoBotonCarrito = document.createElement('a');
 		miNodoBotonCarrito.classList.add('btn', 'product-links', 'btn-primary' , 'btn-carrito' );
-		miNodoBotonCarrito.textContent = 'View Cart';
+		miNodoBotonCarrito.textContent = 'Ver carrito';
 		
 		// let input = document.getElementById('carro')
 		
@@ -107,7 +107,7 @@ function renderItems() {
 		})
 
 		miNodoBoton.addEventListener('click', () => {
-		swal("Good !", "You clicked the add !", "success")
+		swal("AGREGADO !", "Seguir agregando", "success")
 		})
 
 
