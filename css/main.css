@@ -306,7 +306,7 @@ background-color: #45035e !important;
 .botonmorado{
       background-color: #450260;
     color: #fff;
-    width: 20%;
+    width: auto;
     text-align: center;
     padding: 2%;
 }
@@ -592,6 +592,7 @@ font-size: 30px;*/
     color: #363636;
     text-decoration: none;
     transition: 0.3s;
+    height: auto;
 }
 
 .product-details h4 a:hover {
@@ -603,6 +604,7 @@ font-size: 30px;*/
     line-height: 22px;
     margin-bottom: 18px;
     color: #333;
+    height: auto;
 }
 
 .product-bottom-details {
